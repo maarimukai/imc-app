@@ -130,9 +130,6 @@ Button {
 }
 
 .result-section {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
   background-color: #00474B;
   color: #FFFFFF;
   width: 250px;
@@ -158,5 +155,40 @@ Button {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 1.7rem;
+}
+
+@media (max-width: 480px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin: 40px
+  }
+
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    height: 60vh;
+  }
+
+  .calculator-section {
+    margin-top: 5px;
+    margin-right: 0;
+  }
+
+  .div-imc {
+    margin-top: 1.75rem;
+  }
+
+  .result-section {
+    width: 250px;
+    height: 200px;
+    margin-top: 5px;
+  }
+
+
 }
 </style>
