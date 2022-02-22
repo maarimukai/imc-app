@@ -18,7 +18,6 @@
   
       <div class="div-imc" v-if="!imc">
         <Button label="Calculate" @click="calculate" class="btn-calculate"/>
-        <!-- <Button label="Limpar" @click="clear"></Button> -->
       </div>
       <div class="div-imc" v-show="imc">
         <Button label="Recalculate" @click="clear" class="btn-calculate"/>
@@ -171,7 +170,7 @@ Button {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    height: 60vh;
+    height: 75vh;
   }
 
   .calculator-section {
