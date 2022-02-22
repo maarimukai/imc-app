@@ -1,4 +1,4 @@
-<h1>IMC CALCULADORA / BMI CALCULATOR</h1>
+<h1 align="center">IMC CALCULADORA / BMI CALCULATOR</h1>
 <br>
 <br>
 <p>Durante o Bootcamp Desenvolverdor(a) Front End, tive um módulo de Vue.js e um dos Desafios Guiados do módulo era desenvolver o projeto de uma calculadora de IMC. 
